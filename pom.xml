@@ -257,18 +257,20 @@
 	<!--Configures the distribution to nexus repository -->
 	<distributionManagement>
 		<!-- EBI repo -->
+		<!-- 
 		<repository>
 			<id>pst-release</id>
 			<name>EBI Nexus Repository</name>
 			<url>https://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-release</url>
-		</repository>
+		</repository> -->
 		<!-- EBI SNAPSHOT repo -->
+		<!-- 
 		<snapshotRepository>
 			<uniqueVersion>false</uniqueVersion>
 			<id>pst-snapshots</id>
 			<name>EBI Nexus Snapshots Repository</name>
 			<url>https://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-snapshots</url>
-		</snapshotRepository>
+		</snapshotRepository>  -->
 
 		<repository>
 	            <id>local-nexus-repo</id>
